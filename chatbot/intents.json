@@ -1,0 +1,29 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": ["HI there", "How are you", "Is anyone there?", "Hey"],
+            "responses": ["Hello", "Good to see you again", "Hi there, how can I help you"],
+            "context": [""]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you"],
+            "responses": ["See you!", "Have a nice day", "Bye! Come back again"],
+            "context": [""]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["Thanks", "Thank you", "That's helpful"],
+            "responses": ["My pleasure", "You're Welcome"],
+            "context": [""]
+        },
+        {
+            "tag": "query",
+            "patterns": ["What is big bang"],
+            "responses": ["The Big Bang is the theory that the universe began from a single, extremely dense and hot point, expanding rapidly."],
+            "context": [""]
+        }
+    ]
+
+}
